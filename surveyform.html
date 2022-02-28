@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+  <html lang="en" dir="ltr">
+<head>
+
+      <link rel="stylesheet" href="css/surveyform.css"  >
+      <meta charset="utf-8">
+      <title></title>
+
+</head>
+
+
+<body background="https://previews.123rf.com/images/travelarium/travelarium1910/travelarium191000453/132413398-modern-office-work-place-in-large-corporation-comfortable-work-table-with-stationery-leather-compute.jpg">
+
+
+<form id="survey-form">
+  <h1 id="title">Formulario de estudiantes nuevos ingresos.</h1>
+  <p id="description"> <em>Bienvenido</em> al formulario de nuevos ingreso, porfavor completa los campos requerdos </p>
+
+  <label for="name" id="name-label">Ingrese su nombre:</label>
+  <input type="text"id="name" for="name" placeholder="fulanito de tal" required><br><br>
+
+  <label for="email" id="email-label" >Ingrese su email:</label>
+  <input type="email" id="email" for="email"placeholder="fulanitodetal@gmail.com" required><br>
+  <br>
+  <label for="number" id="number-label">Ingrese su numero de telefono:</label>
+  <input type="number" id="number" for="number" max="18" min="100" placeholder="edad"  required><br><br>
+  <label for="dropdown" id="dropdown">Elige tu opcion de preferencia:</label>
+
+  <select name="dropdown" id="dropdown">
+    <option value="mañana">Turno de mañana</option>
+    <option value="tarde">Turno de tarde</option>
+    <option value="noche">Turno de Noche</option>
+
+  </select>
+  <br><br>
+  <fieldset>
+  <legend>¿Cuales son tus topics preferidos de la siguiente lista?</legend>
+  <div>
+  <input type="radio" id="idiomas" name="topics" value="HTML">
+  <label for="idiomas">Idiomas</label><br>
+  <input type="radio" id="biologia" name="topics" value="biologia">
+  <label for="biologia">Biologia</label><br>
+  <input type="radio" id="psicologia" name="topics" value="psicologia">
+  <label for="psicologia">Psicologia</label><br>
+  <input type="radio" id="artes" name="topics" value="artes">
+  <label for="artes">Artes</label><br>
+  </div>
+  </fieldset>
+
+  <h2>¿Cuales de los siguientes idiomas hablas aparte de tu lengua materna?</h2>
+
+
+<input type="checkbox" id="ingles" name="ingles" value="ingles">
+<label for="ingles"> Ingles</label><br>
+<input type="checkbox" id="frances" name="frances" value="frances">
+<label for="frances"> Frances </label><br>
+<input type="checkbox" id="chino" name="chino" value="chino">
+<label for="chino"> Chino </label><br>
+<input type="checkbox" id="ruso" name="ruso" value="ruso">
+<label for="ruso"> Rusos </label><br>
+
+  <br>
+
+
+<label for="comentario">Ingresa cualquier comentario:</label>  <br>
+<textarea id="comentario" name="comentario" rows="4" placeholder="Ingresa cualquier idea o comentario util que desees para el crecimiento de este formulario." cols="50">
+</textarea>  <br>  <br>
+ <button type="submit" id="submit" class="submit-button">
+      Submit
+    </button>
+</form>
+
+
+
+
+
+
+</body>
+<footer>
+
+</footer>
